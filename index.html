@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/style.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="para"></div>
+      <div id="btn"></div>
+      <h1 id="main-heading">Todo management</h1>
+      <form class="addNewTodo" action="">
+        <label for=""
+          >Name:
+          <input class="todo__name" type="text" placeholder="Name ...." />
+        </label>
+        <label for=""
+          >Description:
+          <textarea
+            class="todo__description"
+            name=""
+            id=""
+            cols="30"
+            rows="3"
+          ></textarea>
+        </label>
+        <button class="add__btn">Add</button>
+      </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
